@@ -45,7 +45,8 @@ Output:
 +-------------+
 Explanation: Only products 1 and 3 are both low fat and recyclable.
 */
--- SQL Query
+	
+# SQL Query
 	
 SELECT
 		product_id
@@ -67,7 +68,7 @@ Explanation:
 This will return the IDs of products that meet both conditions.
 */
 
--- SQL Schema
+# SQL Schema
 	
 Create table If Not Exists Products (product_id int, low_fats ENUM('Y', 'N'), recyclable ENUM('Y','N'))
 Truncate table Products
