@@ -58,14 +58,15 @@ SELECT
 		recyclable = 'Y';
 
 /*
-Explanation:
+Approach: Selecting rows based on conditions
+Algorithm
+The keyword SELECT is used to specify the columns that we want to retrieve from the table Products. 
+In this scenario, we want to retrieve the product_id column.
 
-1. SELECT product_id: Retrieves the product_id column from the table.
-
-2. FROM Products: Specifies the Products table to query data from.
-
-3. WHERE low_fats = 'Y' AND recyclable = 'Y': Filters the records to include only those where both low_fats and recyclable are 'Y'.
-This will return the IDs of products that meet both conditions.
+The keyword WHERE is used to filter the rows in the table Products based on specific conditions, which the low_fats column has 
+the value "Y" (indicating low-fat products) and the recyclable column has the value "Y" (indicating recyclable products). 
+We use the logical operator AND to combine both conditions, ensuring that the final result includes only
+product IDs for products that are both low fat and recyclable.
 */
 
 # SQL Schema
