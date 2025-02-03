@@ -10,13 +10,3 @@ which the low_fats column has the value "Y" (indicating low-fat products) and th
 column has the value "Y" (indicating recyclable products). We use the logical operator AND to 
 combine both conditions, ensuring that the final result includes only product IDs for products
 that are both low fat and recyclable.
-
-
-
-Create table If Not Exists Products (product_id int, low_fats ENUM('Y', 'N'), recyclable ENUM('Y','N'))
-Truncate table Products
-insert into Products (product_id, low_fats, recyclable) values ('0', 'Y', 'N')
-insert into Products (product_id, low_fats, recyclable) values ('1', 'Y', 'Y')
-insert into Products (product_id, low_fats, recyclable) values ('2', 'N', 'Y')
-insert into Products (product_id, low_fats, recyclable) values ('3', 'Y', 'Y')
-insert into Products (product_id, low_fats, recyclable) values ('4', 'N', 'N')
