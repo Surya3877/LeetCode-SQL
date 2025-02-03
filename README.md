@@ -1,4 +1,4 @@
-# 1757. Recyclable and Low Fat Products
+# LeetCode1757. Recyclable and Low Fat Products
 
 Approach: Selecting rows based on conditions
 Algorithm
