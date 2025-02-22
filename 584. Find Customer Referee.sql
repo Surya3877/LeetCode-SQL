@@ -47,7 +47,7 @@ Output:
 +------+
 */
 
- CREATE DATABASE IF NOT EXISTS 584_Find_Customer_Referee;
+CREATE DATABASE IF NOT EXISTS 584_Find_Customer_Referee;
 USE 584_Find_Customer_Referee;
 
 CREATE TABLE Customer (
