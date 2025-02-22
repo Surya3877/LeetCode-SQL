@@ -47,6 +47,21 @@ Output:
 +------+
 */
 
+ CREATE DATABASE IF NOT EXISTS 584_Find_Customer_Referee;
+USE 584_Find_Customer_Referee;
+
+CREATE TABLE Customer (
+    id INT,
+    name VARCHAR(250),
+    referee_id INT
+);
+insert into Customer (id, name, referee_id) values ('1', 'Will', NULL);
+insert into Customer (id, name, referee_id) values ('2', 'Jane', NULL);
+insert into Customer (id, name, referee_id) values ('3', 'Alex', '2');
+insert into Customer (id, name, referee_id) values ('4', 'Bill', NULL);
+insert into Customer (id, name, referee_id) values ('5', 'Zack', '1');
+insert into Customer (id, name, referee_id) values ('6', 'Mark', '2');
+
 # SQL Query
 
 SELECT
